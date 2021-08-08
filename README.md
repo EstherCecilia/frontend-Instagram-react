@@ -1,3 +1,4 @@
+![Capturar](https://user-images.githubusercontent.com/29818932/128617125-68c53ccd-90b3-40db-9126-35e88eeb94e2.PNG)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
