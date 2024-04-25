@@ -5,9 +5,16 @@ import like from "../assets/like.svg";
 import comment from "../assets/comment.svg";
 import send from "../assets/send.svg";
 import {post} from "./Post.js"
+import {addRecordingTag} from "../utils/mouseflow"
 
 class Feed extends Component {
   render() {
+
+    const addTagPost = (tag) => {
+      console.log("UAU");
+      addRecordingTag(tag);
+    }
+
     return (
       post().map(post =>
       <section id="post-list">
@@ -27,7 +34,7 @@ class Feed extends Component {
           <img src={post.foto} alt="Descrição de imagem" />
           <footer>
             <div className="actions">
-              <img onClick={()=>console.log("UAU")}src={like} alt="Descrição de imagem" />
+              <img onClick={addTagPost} src={like} alt="Descrição de imagem" />
               <img src={comment} alt="Descrição de imagem" />
               <img src={send} alt="Descrição de imagem" />
             </div>
