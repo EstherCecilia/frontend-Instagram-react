@@ -9,11 +9,11 @@ export default function Header(){
     <header id="main-header">
         <div className="header-content">
             <Link to="/">
-            <img src={logo}/>
+            <img src={logo} alt="logo"/>
             </Link>
             
             <Link to="/new">
-            <img src={camera}/>
+            <img src={camera} alt="logo camera"/>
             </Link>
 
         </div>

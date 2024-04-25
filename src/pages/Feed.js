@@ -21,15 +21,15 @@ class Feed extends Component {
               <span className="place">{post.cidade}</span>
             </div>
 
-            <img src={more} />
+            <img src={more} alt="Descrição de imagem" />
           </header>
 
-          <img src={post.foto} />
+          <img src={post.foto} alt="Descrição de imagem" />
           <footer>
             <div className="actions">
-              <img onClick={()=>console.log("UAU")}src={like} />
-              <img src={comment} />
-              <img src={send} />
+              <img onClick={()=>console.log("UAU")}src={like} alt="Descrição de imagem" />
+              <img src={comment} alt="Descrição de imagem" />
+              <img src={send} alt="Descrição de imagem" />
             </div>
             <strong>{post.curtidas}</strong>
             <p>{post.texto}<span>#react</span>
