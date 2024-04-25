@@ -34,7 +34,7 @@ class Feed extends Component {
           <img src={post.foto} alt="Descrição de imagem" />
           <footer>
             <div className="actions">
-              <img onClick={addTagPost} src={like} alt="Descrição de imagem" />
+              <img onClick={() => addTagPost(`cat-${Math.random() * 10}`)} src={like} alt="Descrição de imagem" />
               <img src={comment} alt="Descrição de imagem" />
               <img src={send} alt="Descrição de imagem" />
             </div>
